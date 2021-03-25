@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài tập</title>
+</head>
+<body>
+<h2>Feet</h2>
+<input type="number" onchange="FeettoMeet(this.value)" >
+<h2>meters</h2>
+<input type="number" onchange="MeettoFeet(this.value)" >
+<p id="result"></p>
+</body>
+</html>
+<script>
+function FeettoMeet(feet){
+    document.getElementById("result").innerHTML = meet = 0.305 * feet ;
+}
+function MeettoFeet(meet) {
+    document.getElementById("result").innerHTML = feet = 3.279 * meet;
+}
+</script>

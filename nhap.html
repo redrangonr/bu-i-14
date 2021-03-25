@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài tập</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>
+            Nhập giá trị
+        </th>
+        <th>
+            Input
+        </th>
+        <th>Output</th>
+    </tr>
+    <tr>
+        <td>
+            <input type="number" id="giá trị" style="width: 100px" onchange="MeettoFeet(this.value)">
+        </td>
+        <td>
+            <select style="width: 80px" id="select1">
+                <option value="feet">feet</option>
+                <option value="meet">meet</option>
+            </select>
+        </td>
+        <td>
+            <select style="width: 80px" id="select2">
+                <option value="meet">meet</option>
+                <option value="feet" >feet</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td id="result"></td>
+    </tr>
+</table>
+</body>
+</html>
+<script>
+    function FeettoMeet(feet){
+        document.getElementById("result").innerHTML = meet = 0.305 * feet ;
+    }
+    function MeettoFeet(meet) {
+        document.getElementById("result").innerHTML = feet = 3.279 * meet;
+    }
+    function change(value){
+
+    }
+</script>
+</body>
+</html>

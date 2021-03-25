@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thực hành</title>
+</head>
+<body>
+<script>
+    let a1= [3,5,1,8,-3, 7,8]
+
+   let a2= [7,12,6,9,20,56,89]
+
+   let a3= []
+
+   let a4= [0,0,0,0,0,0]
+    function timmin(a){
+    let min =a[0]
+        for(let i=0;i<a.length;i++){
+            if(a[i]<min){
+                min = a[i]
+                return min;
+            }
+        }
+
+    }
+let min = timmin(a2);
+    alert(min)
+
+</script>
+</body>
+</html>
